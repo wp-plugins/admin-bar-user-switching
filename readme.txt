@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Extends the excellent User Switching plugin by John Blackbourn by adding a User Switching link to the admin bar. Requires the User Switching plugin to be active.
+Extends the excellent User Switching plugin by John Blackbourn by adding a User Switching link to the admin bar. Requires the User Switching plugin.
 
 == Description ==
 
