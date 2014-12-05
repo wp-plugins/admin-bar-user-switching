@@ -32,6 +32,9 @@ N/A
 
 == Changelog ==
 
+= 0.2 =
+* Fix menu ID bug whereby if user has not added first name and last name they are not included in the user switching list - thanks to @rarst for finding this!
+
 = 0.1 =
 Initial release.
 
