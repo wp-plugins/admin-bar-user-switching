@@ -12,7 +12,7 @@ Extends the excellent User Switching plugin by John Blackbourn by adding a User 
 
 == Description ==
 
-An admin bar “Switch to User” option is provided which on hover provides a search box where you can query a user to switch to. The results are links to switch to that user. This plugin is great for when you are building sites for clients and it is beneficial to see the site as your logged in client see it.
+An admin bar “Switch to User” option is provided which on hover provides a search box where you can query a user to switch to. The results are links to switch to that user. This plugin is great for when you are building sites for clients and it is beneficial to see the site as your logged in client see's it.
 
 == Installation ==
 
@@ -30,6 +30,14 @@ As with the User Switching plugin you can still use the "Switch To" link on the 
 **What can be entered into the username search box?**
 
 You can enter the exact username of a user or you can use wildcards to find a user e.g. *another* would find all users with the word another in their username. [See here for more information on wildcard searches](http://codex.wordpress.org/Class_Reference/WP_User_Query#Search_Parameters)
+
+**Has the plugin any filters or actions for developers?**
+
+It does indeed, although not too many! The following filters can be used.
+
+* abus_switch_to_text - allows developers to change the text that is displayed in the admin menu which, when on hover shows the search box
+* abus_form_output - this filter can be used to change the markup of the form which is used in the plugin for user searching
+* abus_switch_back_text - this filter is used to change the text shown to switch back to the original logged in user
 
 == Screenshots ==
 
