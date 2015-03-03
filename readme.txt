@@ -4,7 +4,7 @@ Donate link: http://markwilkinson.me/saythanks/
 Tags: users, user switching
 Requires at least: 3.1
 Tested up to: 4.0.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ It does indeed, although not too many! The following filters can be used.
 1. A Switch to user item is added to the WordPress admin bar to allow you to search for a user to switch to.
 
 == Changelog ==
+
+= 1.0.1 =
+* Use switch_to_user user capability instead of is_super_admin when checking whether to display Switch to link in admin bar.
 
 = 1.0 =
 * Make the Switch to User link reveals a user search box
