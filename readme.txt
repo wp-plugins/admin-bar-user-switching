@@ -45,7 +45,7 @@ It does indeed, although not too many! The following filters can be used.
 
 == Changelog ==
 
-= 1.0.2 +
+= 1.0.2 =
 * Thanks for @johnbillion for pointing out the incorrect capabilities check for switch_to_user. This now checks against edit_user so users who can edit users will be the Swtich to link.
 
 = 1.0.1 =
