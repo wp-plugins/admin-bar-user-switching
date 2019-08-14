@@ -175,7 +175,8 @@ function abus_user_search() {
 			$link = user_switching::maybe_switch_url( $user );
 			if ( $link ) {
 				$link = add_query_arg( 'redirect_to', apply_filters( 'abus_switch_to_url', $url ), $link );
-				echo '<p class="result"><a href="' . esc_url( $link, $user ) . '">' . $user->display_name . '</a></p>';
+				$result_html = '<p class="result"><a href="' . esc_url( $link, $user ) . '">' . $user->display_name . '</a></p>';
+				echo apply_filters( 'abus_user_result_element', $result_html, $link, $user );
 			}
 			
 		}
